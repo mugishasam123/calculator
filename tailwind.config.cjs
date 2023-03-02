@@ -10,6 +10,11 @@ module.exports = {
         sans:["sans-serif"]
       }
     },
+    colors: {
+      
+      'brick': '#a8642c',
+      
+    },
   },
   plugins: [],
 };

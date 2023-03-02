@@ -1,0 +1,263 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Button > onClick function should work properly 1`] = `
+<button
+  className="digits orange"
+  onClick={[Function]}
+  type="button"
+>
+  +
+</button>
+`;
+
+exports[`Button > should mount the Button component 1`] = `
+<button
+  className="digits orange"
+  onClick={[Function]}
+  type="button"
+>
+  +
+</button>
+`;
+
+exports[`Calculator > should mount the Calculator component 1`] = `
+<div
+  className="flex flex-col items-center gap-7 mt-12 justify-center"
+>
+  <div
+    className="text-center flex justify-center"
+  >
+    <h2
+      className="text-xl"
+    >
+      Try Out Some Maths
+    </h2>
+    <svg
+      className="mt-[5px] ml-[10px] text-[20px] text-brick"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      strokeWidth="0"
+      style={
+        {
+          "color": undefined,
+        }
+      }
+      viewBox="0 0 496 512"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm24 199.4c3.3-42.1 32.2-71.4 56-71.4s52.7 29.3 56 71.4c.7 8.6-10.8 11.9-14.9 4.5l-9.5-17c-7.7-13.7-19.2-21.6-31.5-21.6s-23.8 7.9-31.5 21.6l-9.5 17c-4.2 7.4-15.8 4.1-15.1-4.5zm-160 0c3.3-42.1 32.2-71.4 56-71.4s52.7 29.3 56 71.4c.7 8.6-10.8 11.9-14.9 4.5l-9.5-17c-7.7-13.7-19.2-21.6-31.5-21.6s-23.8 7.9-31.5 21.6l-9.5 17c-4.3 7.4-15.8 4-15.1-4.5zM398.9 306C390 377 329.4 432 256 432h-16c-73.4 0-134-55-142.9-126-1.2-9.5 6.3-18 15.9-18h270c9.6 0 17.1 8.4 15.9 18z"
+      />
+    </svg>
+  </div>
+  <div
+    className="flex flex-col"
+  >
+    <div
+      className="bg-[#858792] text-white text-xl py-[20px] px-[10px] text-right"
+    >
+      0
+    </div>
+    <div
+      className="grid grid-cols-4"
+    >
+      <button
+        className="digits"
+        onClick={[Function]}
+        type="button"
+      >
+        AC
+      </button>
+      <button
+        className="digits"
+        onClick={[Function]}
+        type="button"
+      >
+        +/-
+      </button>
+      <button
+        className="digits"
+        onClick={[Function]}
+        type="button"
+      >
+        %
+      </button>
+      <button
+        className="digits orange"
+        onClick={[Function]}
+        type="button"
+      >
+        ÷
+      </button>
+    </div>
+    <div
+      className="grid grid-cols-4"
+    >
+      <button
+        className="digits"
+        onClick={[Function]}
+        type="button"
+      >
+        7
+      </button>
+      <button
+        className="digits"
+        onClick={[Function]}
+        type="button"
+      >
+        8
+      </button>
+      <button
+        className="digits"
+        onClick={[Function]}
+        type="button"
+      >
+        9
+      </button>
+      <button
+        className="digits orange"
+        onClick={[Function]}
+        type="button"
+      >
+        x
+      </button>
+    </div>
+    <div
+      className="grid grid-cols-4"
+    >
+      <button
+        className="digits"
+        onClick={[Function]}
+        type="button"
+      >
+        4
+      </button>
+      <button
+        className="digits"
+        onClick={[Function]}
+        type="button"
+      >
+        5
+      </button>
+      <button
+        className="digits"
+        onClick={[Function]}
+        type="button"
+      >
+        6
+      </button>
+      <button
+        className="digits orange"
+        onClick={[Function]}
+        type="button"
+      >
+        -
+      </button>
+    </div>
+    <div
+      className="grid grid-cols-4"
+    >
+      <button
+        className="digits"
+        onClick={[Function]}
+        type="button"
+      >
+        1
+      </button>
+      <button
+        className="digits"
+        onClick={[Function]}
+        type="button"
+      >
+        2
+      </button>
+      <button
+        className="digits"
+        onClick={[Function]}
+        type="button"
+      >
+        3
+      </button>
+      <button
+        className="digits orange"
+        onClick={[Function]}
+        type="button"
+      >
+        +
+      </button>
+    </div>
+    <div
+      className="grid grid-cols-4"
+    >
+      <button
+        className="digits span-2"
+        onClick={[Function]}
+        type="button"
+      >
+        0
+      </button>
+      <button
+        className="digits"
+        onClick={[Function]}
+        type="button"
+      >
+        .
+      </button>
+      <button
+        className="digits orange"
+        onClick={[Function]}
+        type="button"
+      >
+        =
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Output > should mount the Output component 1`] = `
+<div
+  className="bg-[#858792] text-white text-xl py-[20px] px-[10px] text-right"
+>
+  0
+  +
+  0
+</div>
+`;
+
+exports[`Row > should mount the Row component 1`] = `
+<div
+  className="grid grid-cols-4"
+>
+  <button
+    className="digits"
+    onClick={[Function]}
+    type="button"
+  >
+    AC
+  </button>
+  <button
+    className="digits"
+    onClick={[Function]}
+    type="button"
+  >
+    +/-
+  </button>
+  <button
+    className="digits"
+    onClick={[Function]}
+    type="button"
+  >
+    %
+  </button>
+  <button
+    className="digits orange"
+    onClick={[Function]}
+    type="button"
+  >
+    ÷
+  </button>
+</div>
+`;
